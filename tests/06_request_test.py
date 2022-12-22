@@ -3,7 +3,7 @@ import pytest
 
 def test_with_introspection(introspective_fixture):
     print("\nRunning test_with_introspection...")
-    assert True
+    assert False
 
 
 @pytest.fixture
